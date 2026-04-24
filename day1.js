@@ -7,3 +7,4 @@ console.log("Product:", a * b);
 console.log("Quotient:", a / b);
 console.log("Remainder:", a % b);
 console.log("Power:", a ** b);
+console.log("average",(a+b)/2);
