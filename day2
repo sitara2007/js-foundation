@@ -1,0 +1,25 @@
+const randomnum=Math.random();//math object in java script
+console.log(randomnum);//gennertes a random num be tween 0 and 1
+//max and min
+const smallest=Math.max(1,2,3,4,5);
+console.log(smallest);
+const largest=Math.min(1,2,3,4,5);
+console.log(largest);
+//ceil and floor
+console.log(Math.ceil(2.3));//rounds up to the nearest integer
+console.log(Math.floor(2.7));
+const max=10;
+const min=1;
+const randomnum2=Math.floor(Math.random()*(max-min+1))+min;//generates a random num between min and max
+console.log(randomnum2);
+//remove decimsl psrt of the number
+const num=2.5;
+console.log(Math.trunc(num));
+console.log(Math.sqrt(16));//square root
+console.log(Math.cbrt(27));//cube root
+console.log(Math.abs(-5));//absolute value
+console.log(Math.sign(-5));//returns -1 for negative numbers, 1 for positive numbers and 0 for zero
+console.log(Math.pow(2,3));//returns 2 to the power of 3
+console.log(Math.log(10));//returns the natural logarithm of 10
+console.log(Math.round(2.5));//rounds to the nearest integer
+
